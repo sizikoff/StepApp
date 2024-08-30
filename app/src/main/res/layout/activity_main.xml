@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_step_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Шагов: 0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_first_step_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Первый шаг: N/A"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_last_step_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Последний шаг: N/A"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
